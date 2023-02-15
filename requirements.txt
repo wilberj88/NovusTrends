@@ -9,3 +9,4 @@ scikit-learn
 shap
 streamlit_echarts
 pytrends
+statsmodels
