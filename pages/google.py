@@ -69,3 +69,7 @@ st.dataframe(dfi)
 st.write("Top temas 2020")
 dfi = pytrends.top_charts(2020, hl='en-US', tz=300, geo='GLOBAL')
 st.dataframe(dfi)
+
+st.write("Top temas 2019")
+dfi = pytrends.top_charts(2019, hl='en-US', tz=300, geo='GLOBAL')
+st.dataframe(dfi)
