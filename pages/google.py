@@ -74,7 +74,7 @@ st.write("Top temas 2019")
 dfi = pytrends.top_charts(2019, hl='en-US', tz=300, geo='GLOBAL')
 st.dataframe(dfi)
 
-st.write("Top Real Time temas hoy en Colombia")
-dfi = pytrends.realtime_trending_searches(pn='colombia')
+st.write("Top Real Time temas hoy en Mundo")
+dfi = pytrends.realtime_trending_searches()
 st.dataframe(dfi)
 
