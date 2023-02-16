@@ -75,6 +75,6 @@ dfi = pytrends.top_charts(2019, hl='en-US', tz=300, geo='GLOBAL')
 st.dataframe(dfi)
 
 st.write("Top Real Time temas hoy en la India")
-dfi = pytrends.realtime_trending_searches(pn='IN')
+dfi = pytrends.realtime_trending_searches()
 st.dataframe(dfi)
 
