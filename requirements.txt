@@ -10,4 +10,4 @@ shap
 streamlit_echarts
 pytrends
 statsmodels
-matplotlib.pyplot
+matplotlib
