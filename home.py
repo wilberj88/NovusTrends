@@ -45,21 +45,7 @@ month_end=6
 day_end=30
 hour_end=0
 
-google_trends = pytrends.get_historical_interest(
-  kw_list,
-  year_start = year_start,
-  month_start = month_start,
-  day_start = day_start,
-  hour_start = hour_start,
-  year_end = year_end, 
-    month_end = month_end, 
-    day_end = day_end, 
-    hour_end = hour_end, 
-    cat=0, 
-    geo=geo, 
-    gprop='', 
-    sleep=0,
-    frequency=frequency)
+google_trends = pytrends.get_historical_interest(kw_list,year_start = year_start,month_start = month_start,day_start = day_start,hour_start = hour_start,year_end = year_end,month_end = month_end,day_end = day_end,hour_end = hour_end,cat=0,geo=geo,gprop='',sleep=0,frequency=frequency)
 google_trends = google_trends.reset_index()
 google_trends.columns = ['date', 'keyword','partial']
 pd.to_datetime(google_trends['date'])
