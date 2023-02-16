@@ -13,12 +13,14 @@ st.set_page_config(layout="wide", page_title="Novus Trends", page_icon="⚙️")
 st.title('Novus Trends ⚙️')
 st.header("Monitores de Tendencias en Google en tiempo real💹")
 
+pytrends = TrendReq(hl='en-US', tz=360)
+st.write("Tendencias Hoy en Estados Unidos 🇺🇸")
+# Google Trends data
+df1 = pytrends.trending_searches(pn='united_states')
+st.dataframe(df1.head(10))
+
 st.write("Tendencias Hoy en Nigeria 🇳🇬")
 # Google Trends data
 df = pytrends.trending_searches(pn='nigeria')
 st.dataframe(df.head(10))
 
-st.write("Tendencias Hoy en Estados Unidos 🇺🇸")
-# Google Trends data
-df1 = pytrends.trending_searches(pn='united_states')
-st.dataframe(df1.head(10))
