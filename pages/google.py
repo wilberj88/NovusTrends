@@ -35,7 +35,14 @@ st.write("Tendencias Hoy en Nigeria 🇳🇬")
 df4 = pytrends.trending_searches(pn='nigeria')
 st.dataframe(df4.head(10))
 
-st.write("Tendencias Hoy en España 🇪🇸")
+#st.write("Tendencias Hoy en España 🇪🇸")
 # Google Trends data
-df2 = pytrends.trending_searches(pn='españa')
-st.dataframe(df2.head(10))
+#df2 = pytrends.trending_searches(pn='españa')
+#st.dataframe(df2.head(10))
+
+
+#GetRealTime Google Search Trends
+st.write("Tendencias Hoy")
+dfhottoday = pytrends.today_searches()
+st.dataframe(dfhottoday.head(10))
+
