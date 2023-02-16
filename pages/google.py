@@ -59,5 +59,5 @@ st.dataframe(dfp.sort_values(by=["programming"], ascending=False))
 
 
 st.write("Top temas 2022")
-dfi = pytrends.top_charts(2023, hl='en-US', tz=300, geo='GLOBAL')
+dfi = pytrends.top_charts(2022, hl='en-US', tz=300, geo='GLOBAL')
 st.dataframe(dfi)
