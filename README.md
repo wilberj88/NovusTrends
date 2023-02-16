@@ -1,5 +1,7 @@
 # Novus-Trends
 
+https://pypi.org/project/pytrends/
+https://github.com/GeneralMills/pytrends/blob/master/README.md
 
 Tendencias de Google Librería PyTrends https://ismaelaraujo.medium.com/pytrends-a-python-library-that-you-should-know-24764b384bc2
 
