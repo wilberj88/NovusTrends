@@ -19,10 +19,6 @@ st.write("Tendencias Hoy en Estados Unidos 🇺🇸")
 df1 = pytrends.trending_searches(pn='united_states')
 st.dataframe(df1.head(10))
 
-st.write("Tendencias en Estados Unidos en TIEMPO REAL 🇺🇸")
-# Google Trends data
-dfa = pytrends.realtime_trending_searches(pn='united_states')
-st.dataframe(dfa.head(10))
 
 st.write("Tendencias Hoy en Colombia 🇨🇴")
 # Google Trends data
