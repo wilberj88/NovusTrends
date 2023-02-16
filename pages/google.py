@@ -56,3 +56,8 @@ st.write("Interés por Regiones para palabra Programming")
 pytrends.build_payload(kw_list=["programming"])
 dfp = pytrends.interest_by_region()
 st.dataframe(dfp.sort_values(by=["programming"], ascending=False))
+
+
+st.write("Top temas 2022")
+dfi = pytrends.top_charts(2023, hl='en-US', tz=300, geo='GLOBAL')
+st.dataframe(dfi.sort_values(ascending=False))
