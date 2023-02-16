@@ -30,10 +30,10 @@ st.markdown(
 )
 
 
-kw_list = [‘covid’]
-frequency = ‘daily’ # ie. hourly, weekly, monthly, yearly
-geo = ‘US’
-hl=’en-US’
+kw_list = ['covid']
+frequency = 'daily' # ie. hourly, weekly, monthly, yearly
+geo = 'US'
+hl='en-US'
 # Select Start Date
 year_start = 2017
 month_start = 6
