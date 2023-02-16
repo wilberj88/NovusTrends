@@ -26,5 +26,5 @@ keyword_list = ['buy home']
 pytrends.build_payload(keyword_list, cat=0, timeframe='today 12-m')
 
 # Google Trends data
-df = pytrends.trending_searches(pn='nigeria')
+df = pytrends.trending_searches(pn='spain')
 st.dataframe(df.head(10))
