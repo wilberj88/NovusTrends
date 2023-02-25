@@ -84,5 +84,5 @@ st.write("Interes durante los últimos 5 años del término buy ")
 kw_list= ["buy"]
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y')
 data = pytrends.interest_over_time()
-data = data.reset_index()
+#data = data.reset_index()
 st.line_chart(data, x="date", y="value")
