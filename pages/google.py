@@ -3,6 +3,7 @@ import pytrends
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import plotly.express as px
 
 from pytrends.request import TrendReq
 
@@ -78,3 +79,10 @@ st.write("Top Real Time temas hoy en Mundo")
 dfi = pytrends.realtime_trending_searches()
 st.dataframe(dfi)
 
+st.write("Interes durante los últimos 5 años del término buy ")
+kw_list= ["buy"]
+pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y')
+data = pytrends.interest_over_time()
+data = data.reset_index()
+fig = px.line(data, x="fecha", y=['buy'], title='Interés en el tiempo en buscador web')
+fig.show()
