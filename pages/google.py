@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly.figure_factory as ff
 
 from pytrends.request import TrendReq
 
@@ -84,5 +85,6 @@ kw_list= ["buy"]
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y')
 data = pytrends.interest_over_time()
 data = data.reset_index()
-fig = px.line(data, x="date", y=['buy'], title='Interés en el tiempo en buscador web')
-fig.show()
+ff.create_distplot(
+        data, group_labels, bin_size=[.1, .25, .5])
+st.plotly_chart(fig, use_container_width=True)
