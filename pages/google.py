@@ -84,5 +84,5 @@ kw_list= ["buy"]
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y')
 data = pytrends.interest_over_time()
 data = data.reset_index()
-fig = px.line(data, x="fecha", y=['buy'], title='Interés en el tiempo en buscador web')
+fig = px.line(data, x="date", y=['buy'], title='Interés en el tiempo en buscador web')
 fig.show()
