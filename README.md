@@ -4,6 +4,7 @@ https://pypi.org/project/pytrends/
 https://github.com/GeneralMills/pytrends/blob/master/README.md
 
 Tendencias de Google Librería PyTrends https://ismaelaraujo.medium.com/pytrends-a-python-library-that-you-should-know-24764b384bc2
+https://medium.com/@ben.g.ballard/using-google-trends-api-with-python-7ddbe0f7e18e
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
