@@ -85,6 +85,5 @@ kw_list= ["buy"]
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y')
 data = pytrends.interest_over_time()
 data = data.reset_index()
-ff.create_distplot(
-        data, group_labels, bin_size=[.1, .25, .5])
+ff.create_distplot(data)
 st.plotly_chart(fig, use_container_width=True)
