@@ -8,6 +8,9 @@ https://medium.com/@ben.g.ballard/using-google-trends-api-with-python-7ddbe0f7e1
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
+Inflación y Precio Gasolina:
+https://medium.com/geekculture/building-an-inflation-tracking-dashboard-with-plotly-dash-93edf01e1fcf
+
 Google Scrapper: https://medium.com/@tmmylo1021/web-scraping-with-python-google-keyword-ranking-tracker-863fe1c0ba47 https://medium.com/i%CC%87stanbuldatascienceacademy/create-your-dataset-by-web-scraping-using-python-beautifulsoup-f5c0bec1e6f2 https://heartbeat.comet.ml/python-based-google-search-analysis-b0b871a48e71
 
 Twitter Sentiment Analysis https://medium.com/@nikitasilaparasetty/twitter-sentiment-analysis-for-data-science-using-python-in-2022-6d5e43f6fa6e Acciones Trading https://medium.com/@chris_42047/the-best-python-packages-for-algorithmic-trading-997d59496b86 Predicciones por sentimientos https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis
