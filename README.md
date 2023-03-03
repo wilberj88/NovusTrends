@@ -18,6 +18,7 @@ Twitter Sentiment Analysis https://medium.com/@nikitasilaparasetty/twitter-senti
 
 LinkedIn
 https://blog.devgenius.io/how-to-build-a-scraping-tool-for-linkedin-in-7-minutes-tool-data-science-csv-selenium-beautifulsoup-python-a673f12ac579
+https://medium.com/@jawadkr111/linkedin-analytics-visualize-your-network-using-python-b9212142126b
 
 Wikipedia (Efemérides):
 https://betterprogramming.pub/create-a-wikipedia-question-answering-app-with-python-2401e1789d6c
