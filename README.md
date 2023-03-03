@@ -8,6 +8,9 @@ https://medium.com/@ben.g.ballard/using-google-trends-api-with-python-7ddbe0f7e1
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
+Rental prices:
+https://levelup.gitconnected.com/how-to-get-zillow-rental-listings-with-python-78e53e8af55e
+
 Inflación y Precio Gasolina:
 https://medium.com/geekculture/building-an-inflation-tracking-dashboard-with-plotly-dash-93edf01e1fcf
 
