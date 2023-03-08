@@ -3,6 +3,17 @@ from PIL import Image
 import base64
 import wikipedia
 
+st.write(wikipedia.search("Barack"))
+st.write(wikipedia.summary("Wikipedia"))
+
+ny = wikipedia.page("New York")
+st.write(ny.title)
+st.write(ny.url)
+st.write(ny.content)
+st.write(ny.links[0])
+
+wikipedia.set_lang("es")
+st.write(wikipedia.summary("Facebook", sentences=1))
 
 st.set_page_config(
     page_title="Wikipedia QnA",
