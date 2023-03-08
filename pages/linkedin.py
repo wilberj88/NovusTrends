@@ -2,12 +2,17 @@ import streamlit as st
 import pytrends
 import numpy as np
 import matplotlib.pyplot as plt
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import time
 import pandas as pd
-
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.firefox import GeckoDriverManager
 
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
 st.set_page_config(layout="wide", page_title="Novus Trends", page_icon="⚙️")
@@ -34,6 +39,19 @@ for item in country_name.split(" "):
 
 url = "https://www.linkedin.com/jobs/search?keywords={0}&location={1}&geoId=103644278&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0"
 url.format(job_url,country_url)
+
+TIMEOUT = 20
+
+st.title("Test Selenium")
+
+firefoxOptions = Options()
+firefoxOptions.add_argument("--headless")
+service = Service(GeckoDriverManager().install())
+driver = webdriver.Firefox(
+    options=firefoxOptions,
+    service=service,
+)
+driver.get(URL)
 
 # Creating a webdriver instance
 driver = webdriver.Chrome("ChromeDriver_Path/chromedriver")
