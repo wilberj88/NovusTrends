@@ -12,5 +12,6 @@ pytrends
 statsmodels
 matplotlib
 selenium
+seleniumbase
 bs4
 webdriver_manager
