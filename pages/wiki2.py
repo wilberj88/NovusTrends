@@ -3,7 +3,7 @@ from PIL import Image
 import base64
 import wikipedia
 
-st.write(wikipedia.search("Barack"))
+st.write(wikipedia.search("Barack Obama"))
 st.write(wikipedia.summary("Alianza Petrolera"))
 
 ny = wikipedia.page("Alianza Petrolera")
