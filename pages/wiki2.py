@@ -4,7 +4,7 @@ import base64
 import wikipedia
 
 st.write(wikipedia.search("Barack"))
-st.write(wikipedia.summary("Efemérides"))
+st.write(wikipedia.summary("efemerides"))
 
 ny = wikipedia.page("New York Mets")
 st.write(ny.title)
