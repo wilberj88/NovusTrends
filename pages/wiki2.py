@@ -24,12 +24,8 @@ app_heading_css = """
         }
     </style>
     """
-app_heading_html = app_heading_css + f"""
-    <div class="container">
-        #<img class="logo-img" src="data:image/png;base64,{base64.b64encode(open("logo.png", "rb").read()).decode()}" width=70 height=70>
-        <p class="logo-text">{"Wikipedia QnA"}</p>
-    </div>
-    """
+app_heading_html = app_heading_css 
+
 st.markdown(
     app_heading_html,
     unsafe_allow_html=True
