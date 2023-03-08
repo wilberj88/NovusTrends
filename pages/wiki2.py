@@ -6,7 +6,7 @@ import wikipedia
 st.write(wikipedia.search("Barack"))
 st.write(wikipedia.summary("Alianza Petrolera"))
 
-ny = wikipedia.page("New York Mets")
+ny = wikipedia.page("Alianza Petrolera")
 st.write(ny.title)
 st.write(ny.url)
 st.write(ny.content)
