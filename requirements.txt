@@ -13,3 +13,4 @@ statsmodels
 matplotlib
 selenium
 bs4
+webdriver_manager
