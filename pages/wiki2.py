@@ -6,7 +6,7 @@ import wikipedia
 
 st.set_page_config(
     page_title="Wikipedia QnA",
-    page_icon=Image.open("logo.png"),
+    #page_icon=Image.open("logo.png"),
     layout="wide",
 )
 app_heading_css = """
