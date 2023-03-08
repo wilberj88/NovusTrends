@@ -11,3 +11,5 @@ streamlit_echarts
 pytrends
 statsmodels
 matplotlib
+selenium
+beautifulsoup
