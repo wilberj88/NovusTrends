@@ -109,7 +109,7 @@ for job in jobs:
   
   
   
-  jd = [] #job_description
+jd = [] #job_description
 seniority = []
 emp_type = []
 job_func = []
