@@ -12,4 +12,4 @@ pytrends
 statsmodels
 matplotlib
 selenium
-beautifulsoup
+bs4
