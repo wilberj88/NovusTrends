@@ -2,6 +2,8 @@ import streamlit as st
 from PIL import Image
 import base64
 import wikipedia
+
+
 st.set_page_config(
     page_title="Wikipedia QnA",
     page_icon=Image.open("logo.png"),
