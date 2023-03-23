@@ -21,6 +21,8 @@ Google Scrapper: https://medium.com/@tmmylo1021/web-scraping-with-python-google-
 
 Twitter Sentiment Analysis https://medium.com/@nikitasilaparasetty/twitter-sentiment-analysis-for-data-science-using-python-in-2022-6d5e43f6fa6e Acciones Trading https://medium.com/@chris_42047/the-best-python-packages-for-algorithmic-trading-997d59496b86 Predicciones por sentimientos https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis
 
+Twitter Social Network:
+https://medium.com/@ubeydkhoiri/social-network-analysis-in-twitter-using-python-ed8ce624b4ac
 
 LinkedIn
 https://blog.devgenius.io/how-to-build-a-scraping-tool-for-linkedin-in-7-minutes-tool-data-science-csv-selenium-beautifulsoup-python-a673f12ac579
