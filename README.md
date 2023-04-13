@@ -11,6 +11,9 @@ https://medium.com/@ben.g.ballard/using-google-trends-api-with-python-7ddbe0f7e1
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
+Herramientas para contrastar Twitter, Facebook, Instagram: https://www.rivaliq.com/ (seguidores, posts, interacciones, mejores performance...)
+
+
 Rental prices:
 https://levelup.gitconnected.com/how-to-get-zillow-rental-listings-with-python-78e53e8af55e
 
