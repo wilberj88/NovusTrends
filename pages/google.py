@@ -40,7 +40,7 @@ st.dataframe(df4.head(10))
 pytrends = TrendReq(hl='es')
 st.write("Tendencias Hoy en España 🇪🇸")
 # Google Trends data
-df2 = pytrends.trending_searches(pn='espana')
+df2 = pytrends.trending_searches(pn='spain')
 st.dataframe(df2.head(10))
 
 
