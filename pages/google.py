@@ -38,9 +38,13 @@ df4 = pytrends.trending_searches(pn='nigeria')
 st.dataframe(df4.head(10))
 
 pytrends = TrendReq(hl='es')
-st.write("Tendencias Hoy en España 🇪🇸")
+st.write("España 🇪🇸")
 # Google Trends data
-df2 = pytrends.trending_searches(geo='ES')
+word_list = ['pfizer']
+a = pytrends.build_payload(word_list, cat=0, timeframe="today 12-m", geo="ES")
+st.dataframe(a.head(10))
+
+df2 = pytrends.trending_searches(pn='es')
 st.dataframe(df2.head(10))
 
 
