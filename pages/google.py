@@ -40,7 +40,7 @@ st.dataframe(df4.head(10))
 pytrends = TrendReq(hl='es')
 st.write("Tendencias Hoy en España 🇪🇸")
 # Google Trends data
-df2 = pytrends.trending_searches(pn='spain')
+df2 = pytrends.trending_searches(geo='ES')
 st.dataframe(df2.head(10))
 
 
@@ -49,10 +49,10 @@ st.write("Tendencias Hoy")
 dfhottoday = pytrends.today_searches()
 st.dataframe(dfhottoday.head(10))
 
-st.write("Interés por Regiones para palabra Buy")
-pytrends.build_payload(kw_list=["buy"])
-dfx = pytrends.interest_by_region()
-st.dataframe(dfx.sort_values(by=["buy"], ascending=False))
+#st.write("Interés por Regiones para palabra Buy")
+#pytrends.build_payload(kw_list=["buy"])
+#dfx = pytrends.interest_by_region()
+#st.dataframe(dfx.sort_values(by=["buy"], ascending=False))
 
 
 st.write("Interés por Regiones para palabra Programming")
