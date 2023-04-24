@@ -38,3 +38,9 @@ https://medium.com/@jawadkr111/linkedin-analytics-visualize-your-network-using-p
 
 Wikipedia (Efemérides):
 https://betterprogramming.pub/create-a-wikipedia-question-answering-app-with-python-2401e1789d6c
+
+Extracting Song Data From the Spotify API Using Python | by Cameron Watts | Towards Data Science
+https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50
+
+YouTube Data API v3 in Python: Tutorial with examples | by Pedro Hernández | MCD-UNISON | Medium
+https://medium.com/mcd-unison/youtube-data-api-v3-in-python-tutorial-with-examples-e829a25d2ebd
