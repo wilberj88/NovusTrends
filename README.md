@@ -11,6 +11,9 @@ https://medium.com/@ben.g.ballard/using-google-trends-api-with-python-7ddbe0f7e1
 How to get Google Trends data with Pytrends and Python
 https://www.premiumleads.com/en/blog/seo/how-to-get-google-trends-data-with-pytrends-and-python/
 
+TEMPO global trends:
+abril: 4/20
+mayo: 4: May the Force be with you
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
