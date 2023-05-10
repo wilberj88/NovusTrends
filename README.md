@@ -6,6 +6,13 @@ Non Obvious Mega Trends
 https://pypi.org/project/pytrends/
 https://github.com/GeneralMills/pytrends/blob/master/README.md
 
+REFERENCES:
+KEYWORD EVERYWHERE
+SparkToro | Audience Research at Your Fingertips
+https://sparktoro.com/
+
+
+
 Visualizaciones Streamlit:
 Charts - eCharts: Line Race
 
