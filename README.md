@@ -7,7 +7,8 @@ https://pypi.org/project/pytrends/
 https://github.com/GeneralMills/pytrends/blob/master/README.md
 
 REFERENCES:
-KEYWORD EVERYWHERE
+KEYWORD EVERYWHERE 
+https://keywordsheeter.com/
 SparkToro | Audience Research at Your Fingertips
 https://sparktoro.com/
 
