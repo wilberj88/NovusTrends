@@ -12,7 +12,8 @@ https://keywordsheeter.com/
 SparkToro | Audience Research at Your Fingertips
 https://sparktoro.com/
 
-
+Temblor Trends:
+comida no perecedera, agua, linterna con pilas adicionales, copias documentos de identidad y pasaportes, botiquin primeros auxilios, radio, plato, pocillo y cuchara, Silbato, kit aseo, navaja, bolsas de basura, cauchos, cuerdas, cobijas, capa inmpermeable, guantes frio, copia de llaves y dinero efectivo.
 
 Visualizaciones Streamlit:
 Charts - eCharts: Line Race
