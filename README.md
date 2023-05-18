@@ -1,7 +1,7 @@
 # Novus-Trends
 
 Book´s Inspiration:
-Non Obvious Mega Trends
+Non Obvious Mega Trends by Rohit Bhargava
 
 https://pypi.org/project/pytrends/
 https://github.com/GeneralMills/pytrends/blob/master/README.md
