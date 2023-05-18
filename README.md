@@ -12,6 +12,9 @@ https://keywordsheeter.com/
 SparkToro | Audience Research at Your Fingertips
 https://sparktoro.com/
 
+GPT Market Research by trends:
+https://levelup.gitconnected.com/autogpt-is-taking-over-the-internet-here-are-the-incredible-use-cases-that-will-blow-your-mind-ac31ea94e06e
+
 Temblor Trends:
 comida no perecedera, agua, linterna con pilas adicionales, copias documentos de identidad y pasaportes, botiquin primeros auxilios, radio, plato, pocillo y cuchara, Silbato, kit aseo, navaja, bolsas de basura, cauchos, cuerdas, cobijas, capa inmpermeable, guantes frio, copia de llaves y dinero efectivo.
 
