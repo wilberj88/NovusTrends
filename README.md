@@ -21,6 +21,10 @@ comida no perecedera, agua, linterna con pilas adicionales, copias documentos de
 Visualizaciones Streamlit:
 Charts - eCharts: Line Race
 
+MUSIC Trends:
+by Spotify:
+https://medium.com/@shrunalisalian97/spotify-data-visualization-4c878c8114e
+
 Tendencias de Google Librería PyTrends https://ismaelaraujo.medium.com/pytrends-a-python-library-that-you-should-know-24764b384bc2
 https://medium.com/@ben.g.ballard/using-google-trends-api-with-python-7ddbe0f7e18e
 How to get Google Trends data with Pytrends and Python
