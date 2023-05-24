@@ -45,6 +45,8 @@ https://medium.com/geekculture/building-an-inflation-tracking-dashboard-with-plo
 Google Scrapper: https://medium.com/@tmmylo1021/web-scraping-with-python-google-keyword-ranking-tracker-863fe1c0ba47 https://medium.com/i%CC%87stanbuldatascienceacademy/create-your-dataset-by-web-scraping-using-python-beautifulsoup-f5c0bec1e6f2 https://heartbeat.comet.ml/python-based-google-search-analysis-b0b871a48e71
 https://medium.com/codex/start-using-google-trends-as-part-of-our-data-analysis-9132607f2e8c
 
+Price-tracking alert system: Web Scrapping Nasdaq: Sentiment analysis, stock market price prediction, market & companies analysis: https://trading-data-analysis.pro/web-scraping-nasdaq-718dab33853e 
+
 Twitter Sentiment Analysis https://medium.com/@nikitasilaparasetty/twitter-sentiment-analysis-for-data-science-using-python-in-2022-6d5e43f6fa6e Acciones Trading https://medium.com/@chris_42047/the-best-python-packages-for-algorithmic-trading-997d59496b86 Predicciones por sentimientos https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis
 
 Twitter Social Network:
