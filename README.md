@@ -55,6 +55,7 @@ Twitter Sentiment Analysis https://medium.com/@nikitasilaparasetty/twitter-senti
 
 Twitter Social Network:
 https://medium.com/@ubeydkhoiri/social-network-analysis-in-twitter-using-python-ed8ce624b4ac
+https://towardsdatascience.com/finding-temporal-patterns-in-twitter-posts-exploratory-data-analysis-with-python-8aac618c8699
 
 LinkedIn
 https://blog.devgenius.io/how-to-build-a-scraping-tool-for-linkedin-in-7-minutes-tool-data-science-csv-selenium-beautifulsoup-python-a673f12ac579
