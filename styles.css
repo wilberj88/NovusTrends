@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+#product {
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact {
+  background-color: #e9ecef;
+  padding: 20px;
+  text-align: center;
+}
+
+#requestForm {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 auto;
+}
+
+input[type="text"], input[type="email"] {
+  margin-bottom: 10px;
+}
