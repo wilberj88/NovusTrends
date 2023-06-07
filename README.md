@@ -32,7 +32,8 @@ https://www.premiumleads.com/en/blog/seo/how-to-get-google-trends-data-with-pytr
 
 TEMPO global trends:
 abril: 4/20, España: declaracion de renta +1M
-mayo: 4: May the Force be with you
+mayo: 4: May the Force be with you. Dia de la madre
+junio: dia del padre + mes del orgullo gay
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
