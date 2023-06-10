@@ -11,6 +11,7 @@ KEYWORD EVERYWHERE
 https://keywordsheeter.com/
 SparkToro | Audience Research at Your Fingertips
 https://sparktoro.com/
+análisis de palabras clave: en google: ahref keyword generator
 
 GPT Market Research by trends:
 https://levelup.gitconnected.com/autogpt-is-taking-over-the-internet-here-are-the-incredible-use-cases-that-will-blow-your-mind-ac31ea94e06e
