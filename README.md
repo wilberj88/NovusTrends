@@ -56,6 +56,7 @@ Price-tracking alert system: Web Scrapping Nasdaq: Sentiment analysis, stock mar
 Twitter Sentiment Analysis https://medium.com/@nikitasilaparasetty/twitter-sentiment-analysis-for-data-science-using-python-in-2022-6d5e43f6fa6e Acciones Trading https://medium.com/@chris_42047/the-best-python-packages-for-algorithmic-trading-997d59496b86 Predicciones por sentimientos https://github.com/kaushikjadhav01/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis
 
 Twitter Social Network:
+https://developer.twitter.com/en?utm_campaign=DES_PU_OT_EN_APIProLaunch_230526&utm_medium=email&utm_source=Eloqua&ref=
 https://medium.com/@ubeydkhoiri/social-network-analysis-in-twitter-using-python-ed8ce624b4ac
 https://towardsdatascience.com/finding-temporal-patterns-in-twitter-posts-exploratory-data-analysis-with-python-8aac618c8699
 
