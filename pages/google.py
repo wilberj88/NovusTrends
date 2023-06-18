@@ -30,7 +30,7 @@ st.dataframe(df3.head(10))
 
 st.write("Tendencias Hoy en México 🇲🇽")
 # Google Trends data
-df7 = pytrends.trending_searches(pn='mexico')
+df7 = pytrends.trending_searches(pn='mex')
 st.dataframe(df7.head(10))
 
 
