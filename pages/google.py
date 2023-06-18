@@ -27,6 +27,13 @@ st.write("Tendencias Hoy en Colombia 🇨🇴")
 df3 = pytrends.trending_searches(pn='colombia')
 st.dataframe(df3.head(10))
 
+
+st.write("Tendencias Hoy en México 🇲🇽")
+# Google Trends data
+df7 = pytrends.trending_searches(pn='mexico')
+st.dataframe(df7.head(10))
+
+
 st.write("Tendencias Hoy en Reino Unido 🇬🇧")
 # Google Trends data
 df5 = pytrends.trending_searches(pn='united_kingdom')
