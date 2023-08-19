@@ -45,7 +45,7 @@ if response.status_code == 200:
    # weather report
    report = data['weather']
    st.write(f"{sity:-^30}")
-   st.write(f"Temperature: {temperature}")
+   st.write(f"Temperature (Kelvins): {temperature}")
    st.write(f"Humidity: {humidity}")
    st.write(f"Pressure: {pressure}")
    st.write(f"Weather Report: {report[0]['description']}")
