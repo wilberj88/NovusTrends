@@ -20,6 +20,8 @@ https://medium.com/geekculture/chatgpt-plugged-browsing-llm-bard-artificial-inte
 Temblor Trends:
 comida no perecedera, agua, linterna con pilas adicionales, copias documentos de identidad y pasaportes, botiquin primeros auxilios, radio, plato, pocillo y cuchara, Silbato, kit aseo, navaja, bolsas de basura, cauchos, cuerdas, cobijas, capa inmpermeable, guantes frio, copia de llaves y dinero efectivo.
 
+Conectarlo a Api de Open Wheater para validar evolución de la tendencia climática
+
 Visualizaciones Streamlit:
 Charts - eCharts: Line Race
 
