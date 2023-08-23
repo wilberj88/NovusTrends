@@ -9,6 +9,7 @@ https://github.com/GeneralMills/pytrends/blob/master/README.md
 REFERENCES:
 KEYWORD EVERYWHERE 
 https://keywordsheeter.com/
+https://ahrefs.com/es/big-data
 SparkToro | Audience Research at Your Fingertips
 https://sparktoro.com/
 análisis de palabras clave: en google: ahref keyword generator
