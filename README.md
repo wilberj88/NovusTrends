@@ -6,6 +6,9 @@ Non Obvious Mega Trends by Rohit Bhargava
 https://pypi.org/project/pytrends/
 https://github.com/GeneralMills/pytrends/blob/master/README.md
 
+Music Trends:
+https://top-songs.streamlit.app/
+
 REFERENCES:
 KEYWORD EVERYWHERE 
 https://keywordsheeter.com/
