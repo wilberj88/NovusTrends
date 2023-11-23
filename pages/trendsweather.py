@@ -11,7 +11,7 @@ import pandas as pd
 
 
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
-st.set_page_config(layout="wide", page_title="Novus MANDO", page_icon="🎮")
+st.set_page_config(layout="wide", page_title="Novus MANDO Trends", page_icon="🎮")
 
 st.title('Novus MANDO 🎮')
 current_time = time.ctime()
