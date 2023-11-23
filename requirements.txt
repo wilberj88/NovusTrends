@@ -21,3 +21,4 @@ schedule
 datetime
 streamlit_card
 streamlit_extras
+folium
