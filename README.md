@@ -44,6 +44,10 @@ mayo: 4: May the Force be with you. Dia de la madre
 junio: dia del padre + mes del orgullo gay
 julio: 4 de julio USA
 agosto: cometas
+Septiembre: amor y amistad 
+octubre: halloween
+noviembre: blackfriday
+diciembre: aguinaldo, novenas, navidad y año nuevo
 
 Price Scraper https://www.youtube.com/watch?v=2vcp0fKq3aw
 
