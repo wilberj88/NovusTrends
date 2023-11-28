@@ -20,7 +20,7 @@ st.set_page_config(layout="wide", page_title="Tecnalia&NovusDemo", page_icon="馃
 with st.sidebar:
     st.write('Prototipo Monitor de Impacto')
 st.header("Mando de Impacto en Tiempo Real")
-a = st.selectbox("Choose a City", ("Econ贸mico", "Social", "Ambiental", "Beneficiarios"), index=None, placeholder="Choose an option")
+a = st.selectbox("Choose a Module", ("Econ贸mico", "Social", "Ambiental", "Beneficiarios"), index=None, placeholder="Choose an option")
 
 if a == "Econ贸mico":
     st.title('Impactos Econ贸micos 馃挵')
