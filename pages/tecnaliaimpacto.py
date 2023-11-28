@@ -514,8 +514,8 @@ if a == "Beneficiarios":
     st.image(player_stats["Photo"])
     st.title(f"{player_stats['Name']}")
     
-    st.markdown(f"**Club:** {player_stats['Club']}")
-    st.markdown(f"**Posición:** {player_stats['Position']}")
+    st.markdown(f"**Equipo:** {player_stats['Club']}")
+    st.markdown(f"**Rol:** {player_stats['Position']}")
     
     col1, col2, col3, col4 = st.columns(4)
     col1.markdown(f"**Edad:** {player_stats['Age']}")
