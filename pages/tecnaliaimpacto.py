@@ -4,7 +4,7 @@ from streamlit_echarts import st_echarts
 import plotly.graph_objects as go
 import folium
 import time
-import datetime
+from datetime import datetime
 import pandas as pd
 import plotly.express as px
 import numpy as np
