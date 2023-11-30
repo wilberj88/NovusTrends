@@ -531,9 +531,6 @@ if a == "Beneficiarios":
     col2.metric(label="Salario mensual", value=f"£ {player_stats['Wage(£)']:,}")
     col3.metric(label="Cláusula de recisión", value=f"£ {player_stats['Release Clause(£)']:,}")
     
-    #clubes1 = df_data["Club"].value_counts().index
-    #club1 = st.sidebar.selectbox("Club", clubes1)
-    
     df_filtered = df_data[df_data["Club"] == club].set_index("Name")
     
     st.image(df_filtered.iloc[0]["Club Logo"])
