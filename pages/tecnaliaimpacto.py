@@ -500,7 +500,6 @@ if a == "Beneficiarios":
     df_data = df_data[df_data["Contract Valid Until"] >= datetime.today().year]
     df_data = df_data[df_data["Value(£)"] > 0]
     df_data = df_data.sort_values(by="Overall", ascending=False)
-    st.session_state["data"] = df_data
     clubes = df_data["Club"].value_counts().index
     df_players = df_data[df_data["Club"] == club]
     players = df_players["Name"].value_counts().index
