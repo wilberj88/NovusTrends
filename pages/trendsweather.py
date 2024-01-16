@@ -56,7 +56,7 @@ colored_header(
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 API_KEY = "146090ad17fa8843bc9eca97c53926b4"
 sity1 = "New York"
-sity2 = "Bogota"
+sity2 = "San Francisco"
 sity3 = "Toledo"
 sity4 = "London"
 sity5 = "Pekin"
