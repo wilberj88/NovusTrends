@@ -473,6 +473,7 @@ if a == "Ambiental":
                 if datos_ciudad:
                     temperature, humidity, pressure, report = datos_ciudad
                     st.write(f"Temperature (Kelvins): {temperature}")
+                    st.write(f"Temperature (Grados Celcius): {temperature}-273,15")
                     st.write(f"Humidity: {humidity}")
                     st.write(f"Pressure: {pressure}")
                     st.write(f"Weather Report: {report}")
