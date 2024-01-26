@@ -20,7 +20,7 @@ st.set_page_config(layout="wide", page_title="Tecnalia&NovusDemo", page_icon="�
 with st.sidebar:
     st.write('Prototipo Monitor de Impacto')
 st.header("Mando de Impacto en Tiempo Real")
-a = st.selectbox("Choose a Module", ("Económico", "Social", "Ambiental", "Beneficiarios"), index=None, placeholder="Choose an option")
+a = st.selectbox("Choose a Module", ("Económico", "Social", "Ambiental"), index=None, placeholder="Choose an option")
 
 if a == "Económico":
     st.title('Impactos Económicos 💰')
@@ -493,40 +493,3 @@ if a == "Ambiental":
     mostrar_informacion_ciudad("Europe", ciudades_europa)
     mostrar_informacion_ciudad("Asia", ciudades_asia)
 
-
-
-if a == "Beneficiarios":
-    df_data = pd.read_csv("datasets/CLEAN_FIFA23_official_data.csv", index_col=0)
-    df_data = df_data[df_data["Contract Valid Until"] >= datetime.today().year]
-    df_data = df_data[df_data["Value(£)"] > 0]
-    df_data = df_data.sort_values(by="Overall", ascending=False)
-    clubes = df_data["Club"].value_counts().index
-    df_players = df_data[df_data["Club"] == club]
-    players = df_players["Name"].value_counts().index
-
-    x = st.selectbox("Comunidad Autónoma", clubes)
-    if x:
-        player = st.selectbox("Empresa", players)
-        
-        player_stats = df_data[df_data["Name"] == player].iloc[0]
-        
-        st.image(player_stats["Photo"])
-        st.title(f"{player_stats['Name']}")
-        
-        st.markdown(f"**Equipo:** {player_stats['Club']}")
-        st.markdown(f"**Rol:** {player_stats['Position']}")
-        
-        col1, col2, col3, col4 = st.columns(4)
-        col1.markdown(f"**Edad:** {player_stats['Age']}")
-        col2.markdown(f"**Altura:** {player_stats['Height(cm.)']/100}")
-        col3.markdown(f"**Peso:** {player_stats['Weight(lbs.)']*0.453:.2f}")
-        
-        st.divider()
-        st.subheader(f"Overal {player_stats['Overall']}")
-        st.progress(int(player_stats['Overall']))
-        
-        col1, col2, col3 = st.columns(3)
-        col1.metric(label="Valor de mercado", value=f"£ {player_stats['Value(£)']:,}")
-        col2.metric(label="Salario mensual", value=f"£ {player_stats['Wage(£)']:,}")
-        col3.metric(label="Cláusula de recisión", value=f"£ {player_stats['Release Clause(£)']:,}")
-    
