@@ -34,6 +34,7 @@ with col4:
       # Google Trends data
     #df1 = pytrends.trending_searches(pn='united_states')
     feed = feedparser.parse("https://trends.google.com/trends/trendingsearches/daily/rss?geo=US")
+    st.write(feed.entries)
     trending = [entry.title for entry in feed.entries]
     #df1 = pytrends.top_charts(2024, hl='en-US', tz=300, geo='GLOBAL')
     trending_df = pd.DataFrame(trending, columns=["Trending Searches"])
