@@ -36,7 +36,8 @@ with col4:
     feed = feedparser.parse("https://trends.google.com/trends/trendingsearches/daily/rss?geo=US")
     trending = [entry.title for entry in feed.entries]
     #df1 = pytrends.top_charts(2024, hl='en-US', tz=300, geo='GLOBAL')
-    st.dataframe(trending.head(10))
+    trending_df = pd.DataFrame(trending, columns="Trending Searches")
+    st.dataframe(trending_df)
 with col5:
     st.write("🇬🇧 UK Top10 Trending Search in last hour")
       # Google Trends data
