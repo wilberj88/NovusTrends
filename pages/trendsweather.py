@@ -33,7 +33,7 @@ with col4:
     st.write("Top Global Trends in last year")
       # Google Trends data
     #df1 = pytrends.trending_searches(pn='united_states')
-    feed = feedparser.parse("https://trends.google.com/trends/trendingsearches/daily/rss?geo=US")
+    feed = feedparser.parse("https://trends.google.com/trends/trendingsearches/daily?geo=US")
     st.write(feed.entries)
     trending = [entry.title for entry in feed.entries]
     #df1 = pytrends.top_charts(2024, hl='en-US', tz=300, geo='GLOBAL')
