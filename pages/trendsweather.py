@@ -30,7 +30,7 @@ col4, col5, col6 = st.columns(3)
 with col4:
     st.write("🇺🇸 USA Top10 Trending Search in last hour")
       # Google Trends data
-    df1 = pytrends.trending_searches(pn='united_states')
+    df1 = pytrends.trending_searches(pn='US')
     st.dataframe(df1.head(10))
 with col5:
     st.write("🇬🇧 UK Top10 Trending Search in last hour")
