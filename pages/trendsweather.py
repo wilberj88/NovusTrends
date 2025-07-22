@@ -8,6 +8,7 @@ import pytrends
 from pytrends.request import TrendReq
 import requests
 import pandas as pd
+import feedparser
 
 
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
@@ -32,8 +33,10 @@ with col4:
     st.write("Top Global Trends in last year")
       # Google Trends data
     #df1 = pytrends.trending_searches(pn='united_states')
-    df1 = pytrends.top_charts(2024, hl='en-US', tz=300, geo='GLOBAL')
-    st.dataframe(df1.head(10))
+    feed = feedparser.parse("https://trends.google.com/trends/trendingsearches/daily/rss?geo=US")
+    trending = [entry.title for entry in feed.entries]
+    #df1 = pytrends.top_charts(2024, hl='en-US', tz=300, geo='GLOBAL')
+    st.dataframe(trending.head(10))
 with col5:
     st.write("🇬🇧 UK Top10 Trending Search in last hour")
       # Google Trends data
