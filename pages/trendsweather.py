@@ -28,9 +28,11 @@ colored_header(
 pytrends = TrendReq(hl='en-US', tz=360)
 col4, col5, col6 = st.columns(3)
 with col4:
-    st.write("🇺🇸 USA Top10 Trending Search in last hour")
+    #st.write("🇺🇸 USA Top10 Trending Search in last hour")
+    st.write("Top Global Trends in last year")
       # Google Trends data
-    df1 = pytrends.trending_searches(pn='US')
+    #df1 = pytrends.trending_searches(pn='united_states')
+    df1 = pytrends.top_charts(2024, hl='en-US', tz=300, geo='GLOBAL')
     st.dataframe(df1.head(10))
 with col5:
     st.write("🇬🇧 UK Top10 Trending Search in last hour")
